@@ -1,72 +1,135 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Ini adalah kaka</h1>
-    <p><b>Kaka: </b>Nama saya Kaka <i>Zakha</i> saya suka sekali <u>Olahraga</u> <mark>,PB adalah game kesukaanku</mark></p>
-    <h4>Rumus</h4>
-    <p>H<sub>2</sub>O</p>
-    <p>X<sup>2</sup></p>
-    <h2>Ini adalah PB</h2>
-    <h4>CODING</h4>
-    <p><code>System.out.println("Hello Kaka");</code></p>
-    <p><kbd>Ctrl + A</kbd> untuk select all</p>
-    <p><samp>ERROR: Kesalahan cara berfikir, mikir skidss</samp></p>
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Muh. Adjie Zakha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <p>Ali Said: <q>Gada</q></p>
+  <body>
+    <audio autoplay loop>
+      <source src="Trouble.mp3" type="audio/mpeg" />
+      Browser Anda tidak mendukung elemen audio.
+    </audio>
 
-    <p>Ali pernah berkata
-        <blockquote>
-            Jangan sekali-kali melupakan dia
-        </blockquote>
-    </p>
-
-    <img src="Gambar1.jpg" alt="PB kuy">
-    <h3>Ini adalah H3</h3>
-    <ol>
-        <li>Belajar HTML</li>
+    <header>
+      <h1>Muh. Adjie Zakha</h1>
+      <p>Mahasiswa Ilmu Komputer | Web Developer Pemula</p>
+      <nav>
         <ul>
-            <li>HTML</li>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#projek">Projek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
         </ul>
-        <li>Belajar Ngoding</li>
-    </ol>
-            <ul>
-                <li>Test</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </li>
-    </ol>
-    <ol>
-        <li>Senin</li>
+      </nav>
+    </header>
+
+    <main>
+      <section id="profil">
+        <h2>Tentang Saya</h2>
+        <img src="zakha.jpg" alt="Foto Profil" class="foto-profil" />
+
+        <p>
+          Halo kawan seperjuanganku! Saya <strong>Kaka Zakha</strong>, Mahasiswa
+          Ilmu Komputer Universitas Pertamina dan sekarang sedang menjalani
+          semester 5. Saya menyukai dunia <em>web development</em> dan terus
+          belajar agar bisa berkembang. Mohon bimbingannya para suhu,
+          hehehe.....
+        </p>
+
+        <h3>Perjalanan Pendidikan</h3>
+        <table>
+          <tr>
+            <th>Tahun</th>
+            <th>Jenjang</th>
+            <th>Tempat</th>
+          </tr>
+          <tr>
+            <td>2017 - 2023</td>
+            <td>SMP-SMA</td>
+            <td>SMP-SMA IT Albinaa IBS</td>
+          </tr>
+          <tr>
+            <td>2023 - Sekarang</td>
+            <td>S1 Ilmu Komputer</td>
+            <td>Universitas Pertamina</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="projek">
+        <h2>Projek Saya</h2>
+
+        <article>
+          <h3>Konten CU</h3>
+          <video controls width="400" height="300">
+            <source src="CU.mp4" type="video/mp4" />
+            Browser Anda tidak mendukung video.
+          </video>
+          <p>
+            Projek ini dibuat untuk konten CU di sosial media seperti
+            <mark>Instagram</mark> dan <mark>TikTok</mark>.
+          </p>
+        </article>
+
+        <article>
+          <h3>
+            Analisis Data Peminjaman Ruangan Lab Komputer Universitas Pertamina
+          </h3>
+          <p>
+            Sebuah proyek Python sederhana yang memvisualisasikan data
+            peminjaman ruang lab dengan <strong>regresi multilinear</strong>.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h3>Keahlian</h3>
         <ul>
-            <li>PBE</li>
+          <li>HTML5 & CSS3 (Masih Belajar)</li>
+          <li>Python (Dikit)</li>
+          <li>Desain Web Dasar</li>
+          <li>Masih terus berkembang</li>
+          <li>Java? yaa bolelaa dikit</li>
+          <li>C++ Dah lupa belum di review ulang lgi selama ini</li>
         </ul>
-        <li>Selasa</li>
+      </aside>
+
+      <section id="kontak">
+        <h2>Hubungi Saya</h2>
+        <form>
+          <label for="nama">Nama:</label><br />
+          <input type="text" id="nama" name="nama" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="pesan">Pesan:</label><br />
+          <textarea id="pesan" name="pesan" rows="4"></textarea><br /><br />
+
+          <input type="submit" value="Kirim" />
+        </form>
+
+        <h3>Ikuti Saya di:</h3>
         <ul>
-            <li>PSD</li>
-            <li>PAA</li>
-            <li>CK</li>
+          <li>
+            <a
+              href="https://www.instagram.com/kakazakha"
+              target="_blank"
+              colour="red"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/kakazakha" target="_blank">GitHub</a>
+          </li>
         </ul>
-    </ol>
+      </section>
+    </main>
 
-    <a href="https://www.pointblank.id/event/landing">PBGacor</a>
-
-    <table border="1">
-        <tr>
-            <th>Nama</th>
-            <th>NIM</th>
-            <th>Hobi</th>
-        </tr>
-        <tr>
-            <td>Kaka Zakha</td>
-            <td>105223019</td>
-            <td>Tennis</td>
-        </tr>
-    </table>
-
-</body>
+    <footer>
+      <p>&copy; 2025 Muh. Adjie Zakha. Semua Hak Dilindungi.</p>
+    </footer>
+  </body>
 </html>
